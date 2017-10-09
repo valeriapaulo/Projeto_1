@@ -1,4 +1,4 @@
-  function initMap() {
+function initMap() {
         var itatiba = {lat: -23.0058893, lng: -46.8442758};
         var map = new google.maps.Map(document.getElementById('map'), {
           zoom: 12,
@@ -14,7 +14,7 @@ var locations = [
   ['Parque Luiz Latorre', -23.028463, -46.838834],
   ['Clube de Campo Fazenda', -22.9570233, -46.7680214],
   ['Eco Run Clube', -22.9694487,-46.7760334],
-  ['Parque Ferraz Costa', -22.994253,-46.8385794],
+  ['Parque Ferraz Costa', -22.994255,-46.8385799],
   ['Teatro Ralino Zambotto', -23.0239296,-46.9132034],
   ['Hotel Fazenda Dona Carolina', -22.9395816,-46.7708667],
   ['Praça da bandeiraa', -23.0055097,-46.8413031],
@@ -24,10 +24,7 @@ var locations = [
   ['Mercado Municipal Dona Lica',-23.0079446,-46.8455387],
   ['Palacete Damásio', -23.0058777,-46.8424211],
   ['Pista de Aeromodelismo Senta a Pua!', -22.994253,-46.8385794],
-  ['Teatro Ralino Zambotto', -23.0239296,-46.9132034],
-  ['Hotel Fazenda Dona Carolina', -22.9395816,-46.7708667],
-  ['Hotel Fazenda Dona Carolina', -22.9395816,-46.7708667],
-  ['Hotel Fazenda Dona Carolina', -22.9395816,-46.7708667]
+ 
 ];
 
 for (i = 0; i < locations.length; i++) {  
