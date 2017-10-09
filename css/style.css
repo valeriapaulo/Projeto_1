@@ -1,0 +1,58 @@
+.rodape {
+	position: absolute;
+	bottom: 1;
+	width: 100%;
+	height: 60px;
+}
+ #map {
+        width: 100%;
+        height: 500px;
+        background-color: grey;
+      }
+
+.fontes_textos {
+	font-family: Times;
+	font-size: 20px;
+}
+
+.textos {
+	font-family: Times;
+	background: white;
+	font-size: 20px;
+}
+
+
+.pagina {
+	min-height: 100%;
+	position: relative;
+}
+ul {
+	list-style-type: none;
+	margin: auto;
+	display: auto;
+	padding: 0;
+	overflow: hidden;
+	border: 1px solid maroon;
+	background-color: firebrick;
+}
+
+li {
+	float: left;
+}
+
+li a {
+	display: block;
+	color: black;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+li a:hover:not(.active) {
+	background-color: #ddd;
+	}
+
+li a.active {
+	color: white;
+    background-color: #4CAF50;
+}
